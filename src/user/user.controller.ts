@@ -11,14 +11,14 @@ get_data():string{
 return this.userService.hello() ;
 
 }
+//new change in controller
 
-
-@Get(':id')
-get_items_byId(@Param('id') id:string){
-    return this.userService.find_one(id);
+// @Get(':id')
+// get_items_byId(@Param('id') id:string){
+//     return this.userService.find_one(id);
 
 }
-}
+
 
 // @Post()      
 // create(@Body() user:any):any{
